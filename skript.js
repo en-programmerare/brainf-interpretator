@@ -13,7 +13,7 @@ function kor() {
 function interpretera(kallkod) { //Interpreterar koden angiven som parameter
    meddelande("Interpreterar Brainf-program"); //Meddela
    //Skapa WebWorker som kör programmet
-   interpretering = new Worker("https://raw.githubusercontent.com/en-programmerare/brainf-interpretator/main/exekvera.js"); 
+   interpretering = new Worker("https://en-programmerare.github.io/brainf-interpretator/exekvera.js"); 
    //Skicka meddelande till tråden att starta
    interpretering.postMessage({"typ": "interpretera", "varde": kallkod});
    //Vid meddelande från Webworkern
