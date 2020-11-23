@@ -1,0 +1,37 @@
+.kod {
+   resize: none;
+   height: 85vh;
+   font-family: "monospace","sans-serif";
+}
+.utdata {
+   background-color: black;
+   color: white;
+   width: 45vw;
+   height: 85vh;
+   font-family: "monospace","sans-serif";
+}
+.delad {
+   width: 45%;
+   position: fixed;
+   z-index: 1;
+   top: 10vh;
+   overflow-x: hidden;
+}
+.hoger {
+   right: 2.5vw;
+}
+.vanster {
+   left: 2.5vw;
+}
+.mitten {
+   left: 48%;
+}
+button {
+  height: 4vh;
+  width: 5vw;
+}
+.indata {
+   background-color: black;
+   color: white;
+   border-style: none;
+}

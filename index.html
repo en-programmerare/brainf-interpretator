@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Brainf-interpretator</title>
+    <link rel="stylesheet" href="stil.css" type="text/css" media="all"/>
+</head>
+<body>
+   <button type="button" onclick="kor()" id="kor">Kör</button>
+   <button type="button" onclick="avslutaKorning()" id="avbryt" disabled>Avbryt</button> 
+   <label for="aktuellposition">Visa aktuell position: </label> 
+   <input type="checkbox" name="aktuellposition" id="visaPos">
+   <textarea id="kod" class="kod delad vanster behallare"></textarea>
+   <div id="utdata" class="utdata delad hoger behallare"></div>
+   
+   <script src="skript.js"></script>
+</body>
+</html>

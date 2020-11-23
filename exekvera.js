@@ -66,7 +66,7 @@ onmessage = function(kommunikationTillTrad) {
                if(!traff) {
                   //ATT GÖRA felmeddelande
                }
-          }
+            }
          }
       }
    }
